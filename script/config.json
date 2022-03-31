@@ -1,0 +1,4 @@
+{
+    "serverInstance" : "localhost\\SQLEXPRESS",
+    "databaseName" : "ScheduleTrial"
+}

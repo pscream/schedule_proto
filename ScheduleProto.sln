@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FDC85F7F-0EB0-4DDB-8110-2908D3C8E642}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{27E2ED4C-8D76-48F1-80DA-EF0EC84AF162}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Quartz", "Quartz", "{3A2E3883-45B2-4868-BB28-7EE98AA92911}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuartzService", "src\Services\Quartz\QuartzService\QuartzService.csproj", "{7AB73AEA-8FDD-4F53-B37A-E0AE0895A4AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataContext", "DataContext", "{4BEF6397-D301-4148-8CB1-FE4F11E8476B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartzContext", "src\DataContext\QuartzContext\QuartzContext.csproj", "{DDEF1DD1-76C9-4077-B3A8-69CCD1972759}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AB73AEA-8FDD-4F53-B37A-E0AE0895A4AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AB73AEA-8FDD-4F53-B37A-E0AE0895A4AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AB73AEA-8FDD-4F53-B37A-E0AE0895A4AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AB73AEA-8FDD-4F53-B37A-E0AE0895A4AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDEF1DD1-76C9-4077-B3A8-69CCD1972759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDEF1DD1-76C9-4077-B3A8-69CCD1972759}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDEF1DD1-76C9-4077-B3A8-69CCD1972759}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDEF1DD1-76C9-4077-B3A8-69CCD1972759}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{27E2ED4C-8D76-48F1-80DA-EF0EC84AF162} = {FDC85F7F-0EB0-4DDB-8110-2908D3C8E642}
+		{3A2E3883-45B2-4868-BB28-7EE98AA92911} = {27E2ED4C-8D76-48F1-80DA-EF0EC84AF162}
+		{7AB73AEA-8FDD-4F53-B37A-E0AE0895A4AD} = {3A2E3883-45B2-4868-BB28-7EE98AA92911}
+		{4BEF6397-D301-4148-8CB1-FE4F11E8476B} = {FDC85F7F-0EB0-4DDB-8110-2908D3C8E642}
+		{DDEF1DD1-76C9-4077-B3A8-69CCD1972759} = {4BEF6397-D301-4148-8CB1-FE4F11E8476B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD6FE4A6-8662-40ED-85F4-1AA6ADDBC798}
+	EndGlobalSection
+EndGlobal
